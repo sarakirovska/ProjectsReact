@@ -1,0 +1,119 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h1 {
+  font-size: 2.5em;
+  color: #27ae60;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+
+label {
+  font-size: 1.2em;
+  color: #27ae60;
+}
+
+
+select {
+  font-size: 1em;
+  padding: 6px;
+  margin: 10px 0;
+  border: 2px solid #27ae60;
+  border-radius: 5px;
+  width: 200px;
+}
+
+
+select option {
+  font-size: 0.9em;
+  padding: 8px;
+}
+
+.image-frame {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0 5%;
+  border: 2px solid #27ae60;
+  border-radius: 15px;
+  background-color: #f5f5f0;
+  width: 90%;
+  gap: 10px;
+  box-sizing: border-box;
+  min-height: 240px;
+}
+
+
+.image-frame img {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+div {
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
+}
+
+
+h1 {
+  font-size: 3em;
+  color: #27ae60;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  font-size: 1.2em;
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #27ae60;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.dog-info-container {
+  width: 60%;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Текстот ќе биде на лево */
+}
+
+.dog-info-container h2 {
+  font-size: 1.6em;
+  color: #333;
+}
+
+.dog-info-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dog-info-container li {
+  font-size: 0.8em;
+  color: #333;
+  line-height: 1.5;
+}
